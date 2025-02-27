@@ -59,3 +59,7 @@ This module allows the user to choose a log file and generate three types of rep
 - Failed login attempts report.
 
 Each report is printed in the terminal and written in a .txt file located in Output/Reports.
+
+## Output folder
+
+The output folder already has some sample files to be explored, in case the user doesn't want to generate new log files.
