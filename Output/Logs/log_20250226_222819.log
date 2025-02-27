@@ -1,0 +1,20 @@
+26-02-2025 22:28:19:094 | CRITICAL | mod_generator | Malware detected! Type: Trojan, User: 'Pedro', IP: 10.0.0.2
+26-02-2025 22:28:22:249 | INFO | mod_generator | Successful login for user 'Joana' from IP 10.0.0.2
+26-02-2025 22:28:26:163 | INFO | mod_generator | Successful login for user 'Carla' from IP 198.51.100.5
+26-02-2025 22:28:27:792 | WARNING | mod_generator | File access: User 'Joana' accessed /var/log/auth.log
+26-02-2025 22:28:29:885 | WARNING | mod_generator | File access: User 'Ana' accessed /var/log/syslog.log
+26-02-2025 22:28:32:450 | INFO | mod_generator | Successful login for user 'Bruno' from IP 172.16.0.3
+26-02-2025 22:28:34:327 | ERROR | mod_generator | Failed login attempt for user 'Tiago' from IP 192.168.1.1
+26-02-2025 22:28:38:620 | INFO | mod_generator | Successful login for user 'Bruno' from IP 172.16.0.12
+26-02-2025 22:28:42:459 | WARNING | mod_generator | Port scan detected from IP 203.0.113.4 targeting sensitive ports
+26-02-2025 22:28:43:893 | WARNING | mod_generator | File access: User 'Ana' accessed /var/log/syslog.log
+26-02-2025 22:28:45:440 | INFO | mod_generator | Successful login for user 'Ana' from IP 192.168.1.1
+26-02-2025 22:28:49:928 | INFO | mod_generator | Successful login for user 'Carla' from IP 192.168.1.1
+26-02-2025 22:28:53:177 | WARNING | mod_generator | Port scan detected from IP 172.16.0.3 targeting sensitive ports
+26-02-2025 22:28:56:650 | WARNING | mod_generator | File access: User 'Tiago' accessed /var/log/auth.log
+26-02-2025 22:29:01:202 | WARNING | mod_generator | File access: User 'Maria' accessed /var/log/syslog.log
+26-02-2025 22:29:05:394 | WARNING | mod_generator | Port scan detected from IP 203.0.113.4 targeting sensitive ports
+26-02-2025 22:29:07:148 | INFO | mod_generator | Successful login for user 'Joana' from IP 192.168.1.1
+26-02-2025 22:29:08:378 | WARNING | mod_generator | File access: User 'Bruno' accessed /var/log/auth.log
+26-02-2025 22:29:09:855 | WARNING | mod_generator | File access: User 'Bruno' accessed /var/log/secure.log
+26-02-2025 22:29:14:578 | WARNING | mod_generator | File access: User 'Maria' accessed /var/log/syslog.log

@@ -1,0 +1,101 @@
+timestamp,level,module,message
+26-02-2025 23:28:43:607,INFO,mod_generator,Successful login for user 'Joaquim' from IP 203.0.113.4
+26-02-2025 23:28:45:145,INFO,mod_generator,Successful login for user 'Carla' from IP 172.16.0.12
+26-02-2025 23:28:48:676,CRITICAL,mod_generator,"Malware detected! Type: Spyware, User: 'Tiago', IP: 172.16.0.12"
+26-02-2025 23:28:50:221,ERROR,mod_generator,Failed login attempt for user 'admin' from IP 172.16.0.3
+26-02-2025 23:28:53:792,INFO,mod_generator,Successful login for user 'Ana' from IP 10.0.0.2
+26-02-2025 23:28:56:097,WARNING,mod_generator,File access: User 'Carla' accessed /var/log/auth.log
+26-02-2025 23:28:59:150,INFO,mod_generator,Successful login for user 'Ana' from IP 172.16.0.12
+26-02-2025 23:29:02:681,WARNING,mod_generator,Port scan detected from IP 172.16.0.12 targeting sensitive ports
+26-02-2025 23:29:05:671,INFO,mod_generator,Successful login for user 'Joana' from IP 172.16.0.3
+26-02-2025 23:29:10:458,ERROR,mod_generator,Failed login attempt for user 'admin' from IP 198.168.1.98
+26-02-2025 23:29:14:140,INFO,mod_generator,Successful login for user 'Maria' from IP 172.16.0.12
+26-02-2025 23:29:17:393,INFO,mod_generator,Successful login for user 'Ana' from IP 203.0.113.4
+26-02-2025 23:29:21:751,ERROR,mod_generator,Failed login attempt for user 'Maria' from IP 203.0.113.4
+26-02-2025 23:29:23:662,ERROR,mod_generator,Failed login attempt for user 'Joaquim' from IP 192.168.1.1
+26-02-2025 23:29:27:906,WARNING,mod_generator,File access: User 'Rui' accessed /var/log/syslog.log
+26-02-2025 23:29:32:412,INFO,mod_generator,Successful login for user 'Maria' from IP 10.0.0.2
+26-02-2025 23:29:36:291,INFO,mod_generator,Successful login for user 'Pedro' from IP 192.168.1.1
+26-02-2025 23:29:40:784,WARNING,mod_generator,Port scan detected from IP 192.168.1.1 targeting sensitive ports
+26-02-2025 23:29:45:282,ERROR,mod_generator,Failed login attempt for user 'Tiago' from IP 172.16.0.12
+26-02-2025 23:29:47:157,INFO,mod_generator,Successful login for user 'admin' from IP 10.0.0.2
+26-02-2025 23:29:50:908,WARNING,mod_generator,Port scan detected from IP 203.0.113.4 targeting sensitive ports
+26-02-2025 23:29:52:131,INFO,mod_generator,Successful login for user 'Joana' from IP 198.168.1.98
+26-02-2025 23:29:53:894,INFO,mod_generator,Successful login for user 'Pedro' from IP 203.0.113.4
+26-02-2025 23:29:58:267,ERROR,mod_generator,Failed login attempt for user 'Carla' from IP 10.0.0.2
+26-02-2025 23:30:01:703,INFO,mod_generator,Successful login for user 'Rui' from IP 203.0.113.4
+26-02-2025 23:30:03:143,INFO,mod_generator,Successful login for user 'Bruno' from IP 198.168.1.98
+26-02-2025 23:30:05:778,INFO,mod_generator,Successful login for user 'Joana' from IP 10.0.0.2
+26-02-2025 23:30:09:821,WARNING,mod_generator,Port scan detected from IP 192.168.1.1 targeting sensitive ports
+26-02-2025 23:30:11:616,WARNING,mod_generator,Port scan detected from IP 198.168.1.98 targeting sensitive ports
+26-02-2025 23:30:14:826,WARNING,mod_generator,File access: User 'Bruno' accessed /var/log/auth.log
+26-02-2025 23:30:18:720,WARNING,mod_generator,Port scan detected from IP 198.168.1.98 targeting sensitive ports
+26-02-2025 23:30:22:000,WARNING,mod_generator,Port scan detected from IP 203.0.113.4 targeting sensitive ports
+26-02-2025 23:30:24:376,INFO,mod_generator,Successful login for user 'Rui' from IP 198.168.1.98
+26-02-2025 23:30:25:736,WARNING,mod_generator,Port scan detected from IP 203.0.113.4 targeting sensitive ports
+26-02-2025 23:30:27:594,INFO,mod_generator,Successful login for user 'Pedro' from IP 198.168.1.98
+26-02-2025 23:30:29:796,ERROR,mod_generator,Failed login attempt for user 'Ana' from IP 203.0.113.4
+26-02-2025 23:30:31:321,INFO,mod_generator,Successful login for user 'Joaquim' from IP 203.0.113.4
+26-02-2025 23:30:35:449,WARNING,mod_generator,Port scan detected from IP 198.51.100.5 targeting sensitive ports
+26-02-2025 23:30:40:098,WARNING,mod_generator,Port scan detected from IP 198.51.100.5 targeting sensitive ports
+26-02-2025 23:30:43:884,WARNING,mod_generator,Port scan detected from IP 172.16.0.3 targeting sensitive ports
+26-02-2025 23:30:47:332,WARNING,mod_generator,Port scan detected from IP 198.168.1.98 targeting sensitive ports
+26-02-2025 23:30:49:820,WARNING,mod_generator,Port scan detected from IP 203.0.113.4 targeting sensitive ports
+26-02-2025 23:30:51:350,CRITICAL,mod_generator,"Malware detected! Type: Trojan, User: 'Rui', IP: 10.0.0.2"
+26-02-2025 23:30:53:033,INFO,mod_generator,Successful login for user 'Joana' from IP 172.16.0.12
+26-02-2025 23:30:55:001,INFO,mod_generator,Successful login for user 'Ana' from IP 198.51.100.5
+26-02-2025 23:30:57:848,INFO,mod_generator,Successful login for user 'Bruno' from IP 172.16.0.12
+26-02-2025 23:31:02:177,WARNING,mod_generator,Port scan detected from IP 192.168.1.1 targeting sensitive ports
+26-02-2025 23:31:04:209,WARNING,mod_generator,File access: User 'Joana' accessed /var/log/syslog.log
+26-02-2025 23:31:05:456,CRITICAL,mod_generator,"Malware detected! Type: Worm, User: 'admin', IP: 198.51.100.5"
+26-02-2025 23:31:06:968,INFO,mod_generator,Successful login for user 'Joaquim' from IP 198.51.100.5
+26-02-2025 23:31:08:870,WARNING,mod_generator,File access: User 'Joaquim' accessed /var/log/auth.log
+26-02-2025 23:31:10:376,WARNING,mod_generator,File access: User 'Bruno' accessed /var/log/auth.log
+26-02-2025 23:31:14:528,WARNING,mod_generator,File access: User 'Joaquim' accessed /var/log/secure.log
+26-02-2025 23:31:18:323,WARNING,mod_generator,File access: User 'Pedro' accessed /var/log/syslog.log
+26-02-2025 23:31:19:622,INFO,mod_generator,Successful login for user 'Maria' from IP 172.16.0.3
+26-02-2025 23:31:21:326,INFO,mod_generator,Successful login for user 'Maria' from IP 198.168.1.98
+26-02-2025 23:31:22:749,ERROR,mod_generator,Failed login attempt for user 'admin' from IP 192.168.1.1
+26-02-2025 23:31:25:308,WARNING,mod_generator,Port scan detected from IP 198.51.100.5 targeting sensitive ports
+26-02-2025 23:31:28:743,WARNING,mod_generator,File access: User 'Bruno' accessed /var/log/syslog.log
+26-02-2025 23:31:32:716,INFO,mod_generator,Successful login for user 'Maria' from IP 192.168.1.1
+26-02-2025 23:31:34:246,INFO,mod_generator,Successful login for user 'Carla' from IP 172.16.0.12
+26-02-2025 23:31:36:607,WARNING,mod_generator,Port scan detected from IP 172.16.0.12 targeting sensitive ports
+26-02-2025 23:31:41:315,WARNING,mod_generator,File access: User 'Ana' accessed /var/log/auth.log
+26-02-2025 23:31:46:188,INFO,mod_generator,Successful login for user 'Joaquim' from IP 203.0.113.4
+26-02-2025 23:31:47:918,WARNING,mod_generator,File access: User 'Joaquim' accessed /var/log/auth.log
+26-02-2025 23:31:49:499,WARNING,mod_generator,File access: User 'Carla' accessed /var/log/syslog.log
+26-02-2025 23:31:51:236,INFO,mod_generator,Successful login for user 'Pedro' from IP 10.0.0.2
+26-02-2025 23:31:54:566,INFO,mod_generator,Successful login for user 'Pedro' from IP 192.168.1.1
+26-02-2025 23:31:55:765,INFO,mod_generator,Successful login for user 'Tiago' from IP 172.16.0.3
+26-02-2025 23:31:58:310,INFO,mod_generator,Successful login for user 'Carla' from IP 10.0.0.2
+26-02-2025 23:32:00:597,ERROR,mod_generator,Failed login attempt for user 'Carla' from IP 203.0.113.4
+26-02-2025 23:32:05:501,WARNING,mod_generator,Port scan detected from IP 198.51.100.5 targeting sensitive ports
+26-02-2025 23:32:09:551,INFO,mod_generator,Successful login for user 'Rui' from IP 192.168.1.1
+26-02-2025 23:32:13:436,INFO,mod_generator,Successful login for user 'Carla' from IP 198.51.100.5
+26-02-2025 23:32:15:515,ERROR,mod_generator,Failed login attempt for user 'Pedro' from IP 198.51.100.5
+26-02-2025 23:32:17:235,INFO,mod_generator,Successful login for user 'Joana' from IP 192.168.1.1
+26-02-2025 23:32:19:014,INFO,mod_generator,Successful login for user 'Joana' from IP 172.16.0.3
+26-02-2025 23:32:20:887,CRITICAL,mod_generator,"Malware detected! Type: Adware, User: 'Ana', IP: 172.16.0.3"
+26-02-2025 23:32:25:280,INFO,mod_generator,Successful login for user 'Bruno' from IP 10.0.0.2
+26-02-2025 23:32:28:683,INFO,mod_generator,Successful login for user 'Joana' from IP 172.16.0.3
+26-02-2025 23:32:32:590,WARNING,mod_generator,File access: User 'Pedro' accessed /var/log/syslog.log
+26-02-2025 23:32:35:727,INFO,mod_generator,Successful login for user 'Tiago' from IP 192.168.1.1
+26-02-2025 23:32:36:958,INFO,mod_generator,Successful login for user 'Bruno' from IP 203.0.113.4
+26-02-2025 23:32:38:892,INFO,mod_generator,Successful login for user 'Ana' from IP 172.16.0.3
+26-02-2025 23:32:41:030,WARNING,mod_generator,Port scan detected from IP 172.16.0.3 targeting sensitive ports
+26-02-2025 23:32:42:499,INFO,mod_generator,Successful login for user 'Rui' from IP 172.16.0.12
+26-02-2025 23:32:44:943,INFO,mod_generator,Successful login for user 'Ana' from IP 192.168.1.1
+26-02-2025 23:32:49:132,WARNING,mod_generator,Port scan detected from IP 172.16.0.3 targeting sensitive ports
+26-02-2025 23:32:51:295,WARNING,mod_generator,Port scan detected from IP 172.16.0.3 targeting sensitive ports
+26-02-2025 23:32:53:906,INFO,mod_generator,Successful login for user 'Pedro' from IP 198.168.1.98
+26-02-2025 23:32:54:962,WARNING,mod_generator,Port scan detected from IP 172.16.0.3 targeting sensitive ports
+26-02-2025 23:32:58:471,INFO,mod_generator,Successful login for user 'Tiago' from IP 172.16.0.3
+26-02-2025 23:33:02:869,INFO,mod_generator,Successful login for user 'Rui' from IP 192.168.1.1
+26-02-2025 23:33:06:208,WARNING,mod_generator,Port scan detected from IP 198.168.1.98 targeting sensitive ports
+26-02-2025 23:33:07:214,INFO,mod_generator,Successful login for user 'Bruno' from IP 192.168.1.1
+26-02-2025 23:33:09:194,WARNING,mod_generator,File access: User 'Joaquim' accessed /var/log/auth.log
+26-02-2025 23:33:13:750,WARNING,mod_generator,File access: User 'admin' accessed /var/log/secure.log
+26-02-2025 23:33:15:188,INFO,mod_generator,Successful login for user 'Joaquim' from IP 198.51.100.5
+26-02-2025 23:33:19:235,INFO,mod_generator,Successful login for user 'Bruno' from IP 172.16.0.3
+26-02-2025 23:33:21:588,INFO,mod_generator,Successful login for user 'Pedro' from IP 172.16.0.3

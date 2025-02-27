@@ -9,12 +9,12 @@ setup(
     packages=find_packages(),
     include_package_data=True,
     install_requires=[
-        "loguru"
-        # List any external dependencies here, e.g., "requests", "pandas"
+        "loguru",
+        # Add any other dependencies here, e.g., "requests", "pandas"
     ],
     entry_points={
         "console_scripts": [
-            "logan=main:main",
+            "logan=main:main",  # Ensure this points to the correct function in main.py
         ],
     },
 )

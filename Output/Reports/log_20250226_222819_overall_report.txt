@@ -1,0 +1,24 @@
+Log Analysis Report
+===================
+
+Summary:
+--------
+Total Logs: 20
+First Entry Time: 26-02-2025 22:28:19:094
+Last Entry Time: 26-02-2025 22:29:14:578
+
+Detailed Log Counts:
+--------------------
+CRITICAL: 1
+INFO: 7
+WARNING: 11
+ERROR: 1
+
+Critical Events:
+----------------
+26-02-2025 22:28:19:094 | CRITICAL | mod_generator | Malware detected! Type: Trojan, User: 'Pedro', IP: 10.0.0.2
+
+
+Error Events:
+-------------
+26-02-2025 22:28:34:327 | ERROR | mod_generator | Failed login attempt for user 'Tiago' from IP 192.168.1.1

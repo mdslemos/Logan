@@ -1,0 +1,23 @@
+Log Analysis Report
+===================
+
+Log File: log_20250227_115306.log
+
+Summary:
+--------
+Total Logs: 15
+First Entry Time: 27-02-2025 11:53:06:027
+Last Entry Time: 27-02-2025 11:53:49:655
+
+Detailed Log Counts:
+--------------------
+WARNING: 6
+INFO: 8
+ERROR: 1
+
+Critical Events:
+----------------
+
+Error Events:
+-------------
+27-02-2025 11:53:32:861 | ERROR | mod_generator | Failed login attempt for user 'admin' from IP 192.168.1.1

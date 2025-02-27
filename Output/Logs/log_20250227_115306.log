@@ -1,0 +1,15 @@
+27-02-2025 11:53:06:027 | WARNING | mod_generator | File access: User 'Joaquim' accessed /var/log/syslog.log
+27-02-2025 11:53:07:595 | WARNING | mod_generator | Port scan detected from IP 172.16.0.12 targeting sensitive ports
+27-02-2025 11:53:12:052 | WARNING | mod_generator | File access: User 'admin' accessed /var/log/syslog.log
+27-02-2025 11:53:16:591 | INFO | mod_generator | Successful login for user 'Carla' from IP 192.168.1.1
+27-02-2025 11:53:20:088 | INFO | mod_generator | Successful login for user 'Maria' from IP 198.51.100.5
+27-02-2025 11:53:24:868 | WARNING | mod_generator | File access: User 'Pedro' accessed /var/log/syslog.log
+27-02-2025 11:53:29:005 | WARNING | mod_generator | File access: User 'Carla' accessed /var/log/secure.log
+27-02-2025 11:53:30:251 | INFO | mod_generator | Successful login for user 'Joana' from IP 198.168.1.98
+27-02-2025 11:53:31:362 | INFO | mod_generator | Successful login for user 'Rui' from IP 198.168.1.98
+27-02-2025 11:53:32:861 | ERROR | mod_generator | Failed login attempt for user 'admin' from IP 192.168.1.1
+27-02-2025 11:53:36:348 | WARNING | mod_generator | File access: User 'Carla' accessed /var/log/syslog.log
+27-02-2025 11:53:38:631 | INFO | mod_generator | Successful login for user 'Rui' from IP 198.168.1.98
+27-02-2025 11:53:42:025 | INFO | mod_generator | Successful login for user 'Joana' from IP 10.0.0.2
+27-02-2025 11:53:44:893 | INFO | mod_generator | Successful login for user 'Maria' from IP 192.168.1.1
+27-02-2025 11:53:49:655 | INFO | mod_generator | Successful login for user 'Pedro' from IP 198.168.1.98

@@ -1,0 +1,122 @@
+[
+    {
+        "timestamp": "27-02-2025 01:02:50:618",
+        "level": "INFO",
+        "module": "mod_generator",
+        "message": "Successful login for user 'Tiago' from IP 198.168.1.98"
+    },
+    {
+        "timestamp": "27-02-2025 01:02:51:773",
+        "level": "WARNING",
+        "module": "mod_generator",
+        "message": "File access: User 'Tiago' accessed /var/log/auth.log"
+    },
+    {
+        "timestamp": "27-02-2025 01:02:56:561",
+        "level": "INFO",
+        "module": "mod_generator",
+        "message": "Successful login for user 'Tiago' from IP 10.0.0.2"
+    },
+    {
+        "timestamp": "27-02-2025 01:02:59:208",
+        "level": "INFO",
+        "module": "mod_generator",
+        "message": "Successful login for user 'Tiago' from IP 172.16.0.3"
+    },
+    {
+        "timestamp": "27-02-2025 01:03:00:242",
+        "level": "WARNING",
+        "module": "mod_generator",
+        "message": "Port scan detected from IP 10.0.0.2 targeting sensitive ports"
+    },
+    {
+        "timestamp": "27-02-2025 01:03:03:705",
+        "level": "WARNING",
+        "module": "mod_generator",
+        "message": "Port scan detected from IP 203.0.113.4 targeting sensitive ports"
+    },
+    {
+        "timestamp": "27-02-2025 01:03:06:858",
+        "level": "WARNING",
+        "module": "mod_generator",
+        "message": "File access: User 'Ana' accessed /var/log/syslog.log"
+    },
+    {
+        "timestamp": "27-02-2025 01:03:10:353",
+        "level": "WARNING",
+        "module": "mod_generator",
+        "message": "Port scan detected from IP 172.16.0.12 targeting sensitive ports"
+    },
+    {
+        "timestamp": "27-02-2025 01:03:14:504",
+        "level": "CRITICAL",
+        "module": "mod_generator",
+        "message": "Malware detected! Type: Spyware, User: 'admin', IP: 198.168.1.98"
+    },
+    {
+        "timestamp": "27-02-2025 01:03:17:155",
+        "level": "WARNING",
+        "module": "mod_generator",
+        "message": "Port scan detected from IP 10.0.0.2 targeting sensitive ports"
+    },
+    {
+        "timestamp": "27-02-2025 01:03:19:551",
+        "level": "INFO",
+        "module": "mod_generator",
+        "message": "Successful login for user 'Joana' from IP 198.168.1.98"
+    },
+    {
+        "timestamp": "27-02-2025 01:03:20:816",
+        "level": "ERROR",
+        "module": "mod_generator",
+        "message": "Failed login attempt for user 'Tiago' from IP 10.0.0.2"
+    },
+    {
+        "timestamp": "27-02-2025 01:03:22:392",
+        "level": "ERROR",
+        "module": "mod_generator",
+        "message": "Failed login attempt for user 'admin' from IP 198.168.1.98"
+    },
+    {
+        "timestamp": "27-02-2025 01:03:23:869",
+        "level": "INFO",
+        "module": "mod_generator",
+        "message": "Successful login for user 'Joaquim' from IP 172.16.0.3"
+    },
+    {
+        "timestamp": "27-02-2025 01:03:26:177",
+        "level": "WARNING",
+        "module": "mod_generator",
+        "message": "File access: User 'Bruno' accessed /var/log/secure.log"
+    },
+    {
+        "timestamp": "27-02-2025 01:03:29:210",
+        "level": "WARNING",
+        "module": "mod_generator",
+        "message": "File access: User 'Carla' accessed /var/log/auth.log"
+    },
+    {
+        "timestamp": "27-02-2025 01:03:30:997",
+        "level": "INFO",
+        "module": "mod_generator",
+        "message": "Successful login for user 'Rui' from IP 172.16.0.3"
+    },
+    {
+        "timestamp": "27-02-2025 01:03:34:517",
+        "level": "INFO",
+        "module": "mod_generator",
+        "message": "Successful login for user 'admin' from IP 192.168.1.1"
+    },
+    {
+        "timestamp": "27-02-2025 01:03:35:590",
+        "level": "INFO",
+        "module": "mod_generator",
+        "message": "Successful login for user 'Joaquim' from IP 10.0.0.2"
+    },
+    {
+        "timestamp": "27-02-2025 01:03:38:447",
+        "level": "WARNING",
+        "module": "mod_generator",
+        "message": "File access: User 'Joaquim' accessed /var/log/auth.log"
+    }
+]

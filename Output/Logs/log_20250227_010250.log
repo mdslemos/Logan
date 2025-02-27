@@ -1,0 +1,20 @@
+27-02-2025 01:02:50:618 | INFO | mod_generator | Successful login for user 'Tiago' from IP 198.168.1.98
+27-02-2025 01:02:51:773 | WARNING | mod_generator | File access: User 'Tiago' accessed /var/log/auth.log
+27-02-2025 01:02:56:561 | INFO | mod_generator | Successful login for user 'Tiago' from IP 10.0.0.2
+27-02-2025 01:02:59:208 | INFO | mod_generator | Successful login for user 'Tiago' from IP 172.16.0.3
+27-02-2025 01:03:00:242 | WARNING | mod_generator | Port scan detected from IP 10.0.0.2 targeting sensitive ports
+27-02-2025 01:03:03:705 | WARNING | mod_generator | Port scan detected from IP 203.0.113.4 targeting sensitive ports
+27-02-2025 01:03:06:858 | WARNING | mod_generator | File access: User 'Ana' accessed /var/log/syslog.log
+27-02-2025 01:03:10:353 | WARNING | mod_generator | Port scan detected from IP 172.16.0.12 targeting sensitive ports
+27-02-2025 01:03:14:504 | CRITICAL | mod_generator | Malware detected! Type: Spyware, User: 'admin', IP: 198.168.1.98
+27-02-2025 01:03:17:155 | WARNING | mod_generator | Port scan detected from IP 10.0.0.2 targeting sensitive ports
+27-02-2025 01:03:19:551 | INFO | mod_generator | Successful login for user 'Joana' from IP 198.168.1.98
+27-02-2025 01:03:20:816 | ERROR | mod_generator | Failed login attempt for user 'Tiago' from IP 10.0.0.2
+27-02-2025 01:03:22:392 | ERROR | mod_generator | Failed login attempt for user 'admin' from IP 198.168.1.98
+27-02-2025 01:03:23:869 | INFO | mod_generator | Successful login for user 'Joaquim' from IP 172.16.0.3
+27-02-2025 01:03:26:177 | WARNING | mod_generator | File access: User 'Bruno' accessed /var/log/secure.log
+27-02-2025 01:03:29:210 | WARNING | mod_generator | File access: User 'Carla' accessed /var/log/auth.log
+27-02-2025 01:03:30:997 | INFO | mod_generator | Successful login for user 'Rui' from IP 172.16.0.3
+27-02-2025 01:03:34:517 | INFO | mod_generator | Successful login for user 'admin' from IP 192.168.1.1
+27-02-2025 01:03:35:590 | INFO | mod_generator | Successful login for user 'Joaquim' from IP 10.0.0.2
+27-02-2025 01:03:38:447 | WARNING | mod_generator | File access: User 'Joaquim' accessed /var/log/auth.log

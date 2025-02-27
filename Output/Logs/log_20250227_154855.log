@@ -1,0 +1,20 @@
+27-02-2025 15:48:55:623 | INFO | mod_generator | Successful login for user 'Joaquim' from IP 203.0.113.4
+27-02-2025 15:48:58:117 | INFO | mod_generator | Successful login for user 'Pedro' from IP 203.0.113.4
+27-02-2025 15:49:00:721 | ERROR | mod_generator | Failed login attempt for user 'Bruno' from IP 203.0.113.4
+27-02-2025 15:49:04:047 | INFO | mod_generator | Successful login for user 'Joaquim' from IP 172.16.0.3
+27-02-2025 15:49:06:562 | CRITICAL | mod_generator | Malware detected! Type: Trojan, User: 'Bruno', IP: 172.16.0.12
+27-02-2025 15:49:09:427 | INFO | mod_generator | Successful login for user 'Rui' from IP 172.16.0.3
+27-02-2025 15:49:13:485 | WARNING | mod_generator | Port scan detected from IP 198.168.1.98 targeting sensitive ports
+27-02-2025 15:49:15:066 | WARNING | mod_generator | Port scan detected from IP 172.16.0.3 targeting sensitive ports
+27-02-2025 15:49:17:479 | ERROR | mod_generator | Failed login attempt for user 'Rui' from IP 172.16.0.3
+27-02-2025 15:49:18:865 | INFO | mod_generator | Successful login for user 'Maria' from IP 172.16.0.3
+27-02-2025 15:49:22:156 | INFO | mod_generator | Successful login for user 'Bruno' from IP 198.51.100.5
+27-02-2025 15:49:23:379 | INFO | mod_generator | Successful login for user 'Carla' from IP 10.0.0.2
+27-02-2025 15:49:24:816 | WARNING | mod_generator | Port scan detected from IP 198.168.1.98 targeting sensitive ports
+27-02-2025 15:49:28:776 | WARNING | mod_generator | Port scan detected from IP 172.16.0.12 targeting sensitive ports
+27-02-2025 15:49:31:710 | WARNING | mod_generator | File access: User 'Pedro' accessed /var/log/secure.log
+27-02-2025 15:49:33:469 | CRITICAL | mod_generator | Malware detected! Type: Trojan, User: 'admin', IP: 172.16.0.3
+27-02-2025 15:49:35:508 | ERROR | mod_generator | Failed login attempt for user 'Maria' from IP 198.168.1.98
+27-02-2025 15:49:37:539 | INFO | mod_generator | Successful login for user 'Joana' from IP 10.0.0.2
+27-02-2025 15:49:41:201 | WARNING | mod_generator | File access: User 'Ana' accessed /var/log/syslog.log
+27-02-2025 15:49:43:134 | WARNING | mod_generator | Port scan detected from IP 10.0.0.2 targeting sensitive ports

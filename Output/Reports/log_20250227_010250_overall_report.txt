@@ -1,0 +1,28 @@
+Log Analysis Report
+===================
+
+Log File: log_20250227_010250.log
+
+Summary:
+--------
+Total Logs: 20
+First Entry Time: 27-02-2025 01:02:50:618
+Last Entry Time: 27-02-2025 01:03:38:447
+
+Detailed Log Counts:
+--------------------
+INFO: 8
+WARNING: 9
+CRITICAL: 1
+ERROR: 2
+
+Critical Events:
+----------------
+27-02-2025 01:03:14:504 | CRITICAL | mod_generator | Malware detected! Type: Spyware, User: 'admin', IP: 198.168.1.98
+
+
+Error Events:
+-------------
+27-02-2025 01:03:20:816 | ERROR | mod_generator | Failed login attempt for user 'Tiago' from IP 10.0.0.2
+
+27-02-2025 01:03:22:392 | ERROR | mod_generator | Failed login attempt for user 'admin' from IP 198.168.1.98
