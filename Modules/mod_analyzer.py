@@ -4,10 +4,13 @@ import csv
 from loguru import logger
 from collections import defaultdict
 
+# Define allowed file extensions for log files
 ALLOWED_EXTENSIONS = {".log", ".csv", ".json"}
+# Base directory for log samples (this can be adjusted as needed)
 BASE_DIRECTORY = "/home/kali/M05_Project/Logan/Log_Samples"
 
 def analyze_log_file(log_file_path):
+    """Analyze the log file and return counts of log levels, error events, and critical events."""
     if not is_valid_file(log_file_path):
         return None, None, None
 
@@ -15,6 +18,7 @@ def analyze_log_file(log_file_path):
     error_events = []
     critical_events = []
 
+    # Read the log file line by line
     with open(log_file_path, "r") as file:
         for line in file:
             parts = line.strip().split(" | ")
@@ -31,6 +35,7 @@ def analyze_log_file(log_file_path):
     return log_counts, error_events, critical_events 
 
 def read_log_file(log_file):
+    """Read a log file and return its contents as a list of lines."""
     if not is_valid_file(log_file):
         return []
 
@@ -44,39 +49,8 @@ def read_log_file(log_file):
         logger.error(f"An error occurred: {e}")
     return log_data
 
-def read_csv_file(csv_file):
-    if not is_valid_file(csv_file):
-        return []
-
-    log_data = []
-    try:
-        with open(csv_file, mode='r') as file:
-            csv_reader = csv.reader(file)
-            for row in csv_reader:
-                log_data.append(" | ".join(row))
-    except FileNotFoundError:
-        logger.error(f"File not found: {csv_file}")
-    except Exception as e:
-        logger.error(f"An error occurred: {e}")
-    return log_data
-
-def read_json_file(json_file):
-    if not is_valid_file(json_file):
-        return []
-
-    log_data = []
-    try:
-        with open(json_file, "r") as file:
-            log_entries = json.load(file)
-            for entry in log_entries:
-                log_data.append(f"{entry['timestamp']} | {entry['level']} | {entry['module']} | {entry['message']}")
-    except FileNotFoundError:
-        logger.error(f"File not found: {json_file}")
-    except Exception as e:
-        logger.error(f"An error occurred: {e}")
-    return log_data
-
 def is_valid_file(file_path):
+    """Check if the file is valid based on several criteria."""
     if not os.path.exists(file_path):
         logger.error(f"File does not exist: {file_path}")
         return False

@@ -1,4 +1,5 @@
 def generate_overall_report(log_counts, output_file, first_entry_time, last_entry_time, critical_events, error_events, log_file_name):
+    """Generate an overall report of the log analysis."""
     report_lines = []
     report_lines.append("Log Analysis Report")
     report_lines.append("===================")
@@ -35,6 +36,7 @@ def generate_overall_report(log_counts, output_file, first_entry_time, last_entr
     return report_content
 
 def generate_failed_login_report(log_entries, output_file, log_file_name):
+    """Generate a report of failed login attempts."""
     ip_counts = {}
     for entry in log_entries:
         if "failed login" in entry.lower():
@@ -66,6 +68,7 @@ def generate_failed_login_report(log_entries, output_file, log_file_name):
     return report_content
 
 def generate_malware_report(log_entries, output_file, first_entry_time, last_entry_time, log_file_name):
+    """Generate a report of malware detections."""
     malware_dict = {}
     for entry in log_entries:
         if "malware detected" in entry.lower():

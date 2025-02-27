@@ -4,20 +4,11 @@ import sys
 # Add the Modules directory to the Python path
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), 'Modules')))
 
-from mod_generator import simulate_soc_logs
+# Import necessary modules from the Modules directory
+from mod_generator import generate_log_file
 from mod_analyzer import analyze_log_file, is_valid_file
 from mod_converter import convert_to_csv, convert_to_json
 from mod_reporter import generate_overall_report, generate_failed_login_report, generate_malware_report
-
-def main():
-    """Main entry point of the program."""
-    print("")
-    print("===========================")
-    print("| Logan: The Log Analyzer |")
-    print("===========================")
-    print("")
-    print("This tool generates simulated log events for testing log analysis scripts.")
-    print("")
 
 def list_log_files(log_file_path):
     """List available log files in the specified directory."""
@@ -33,6 +24,23 @@ def list_log_files(log_file_path):
         print(f"{idx}. {log_file}")
     return log_files
 
+def select_log_file(log_files):
+    """Prompt the user to select a log file from the list."""
+    while True:
+        try:
+            file_choice = int(input("Enter the number of the log file: "))
+        except ValueError:
+            print("Invalid input. Please enter a number.")
+            continue
+
+        if 1 <= file_choice <= len(log_files):
+            selected_log_file = log_files[file_choice - 1]
+            print("")
+            print(f"Selected log file: {selected_log_file}")
+            return selected_log_file
+        else:
+            print("Invalid choice. Please select a valid option.")
+
 def get_first_and_last_entry_times(log_file_path):
     """Get the first and last entry times from the log file."""
     with open(log_file_path, "r") as file:
@@ -43,7 +51,7 @@ def get_first_and_last_entry_times(log_file_path):
         last_entry = lines[-1].split(" | ")[0]
         return first_entry, last_entry
 
-def generate_log_file():
+def generate_log_file_menu():
     """Generate a new log file with simulated log events."""
     while True:
         print("")
@@ -65,7 +73,7 @@ def generate_log_file():
             except ValueError:
                 print("Invalid input. Please enter a number.")
                 continue
-            log_file_name = simulate_soc_logs(event_count, log_file_path)
+            log_file_name = generate_log_file(event_count, log_file_path)
             print(f"Generated {event_count} log events in {log_file_name}")
         elif choice == 2:
             return
@@ -99,23 +107,6 @@ def analyze_log_file_menu():
         else:
             print("Invalid choice. Please select a valid option.")
 
-def select_log_file(log_files):
-    """Prompt the user to select a log file from the list."""
-    while True:
-        try:
-            file_choice = int(input("Enter the number of the log file: "))
-        except ValueError:
-            print("Invalid input. Please enter a number.")
-            continue
-
-        if 1 <= file_choice <= len(log_files):
-            selected_log_file = log_files[file_choice - 1]
-            print("")
-            print(f"Selected log file: {selected_log_file}")
-            return selected_log_file
-        else:
-            print("Invalid choice. Please select a valid option.")
-
 def analyze_selected_log_file(log_file_path, selected_log_file):
     """Analyze the selected log file and display the results."""
     log_counts, error_events, critical_events = analyze_log_file(os.path.join(log_file_path, selected_log_file))
@@ -133,7 +124,7 @@ def analyze_selected_log_file(log_file_path, selected_log_file):
     else:
         print("Invalid log file. Analysis aborted.")
 
-def convert_log_file():
+def convert_log_file_menu():
     """Convert a selected log file to CSV, JSON, or both formats."""
     while True:
         print("")
@@ -187,7 +178,7 @@ def convert_to_format(log_file_path, selected_log_file, format):
         convert_to_json(os.path.join(log_file_path, selected_log_file), json_file)
         print(f"Log data successfully converted to JSON: {json_file}")
 
-def generate_report():
+def generate_report_menu():
     """Generate a report based on the user's choice."""
     while True:
         print("")
@@ -251,6 +242,16 @@ def generate_selected_report(log_file_path, selected_log_file, choice):
         report = generate_failed_login_report(log_entries, report_file_path, selected_log_file)
         print(report)
 
+def main():
+    """Main entry point of the program."""
+    print("")
+    print("===========================")
+    print("| Logan: The Log Analyzer |")
+    print("===========================")
+    print("")
+    print("This tool generates simulated log events for testing log analysis scripts.")
+    print("")
+
 def menu():
     """Display the main menu and handle user input."""
     while True:
@@ -270,13 +271,13 @@ def menu():
             continue
 
         if choice_number == 1:
-            generate_log_file()
+            generate_log_file_menu()
         elif choice_number == 2:
             analyze_log_file_menu()
         elif choice_number == 3:
-            convert_log_file()
+            convert_log_file_menu()
         elif choice_number == 4:
-            generate_report()
+            generate_report_menu()
         elif choice_number == 5:
             print("")
             print("Exiting...")
